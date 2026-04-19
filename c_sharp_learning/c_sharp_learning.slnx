@@ -1,3 +1,4 @@
 <Solution>
-  <Project Path="c_sharp_learning/c_sharp_learning.csproj" Id="cf5d7768-d439-46f5-824b-4c0fb4012196" />
+  <Project Path="c_sharp_learning/ConsoleInpOutp.csproj" Id="cf5d7768-d439-46f5-824b-4c0fb4012196" />
+  <Project Path="Operators/Operators.csproj" Id="dfc96124-6c7e-4d91-8ada-ec53c0724138" />
 </Solution>

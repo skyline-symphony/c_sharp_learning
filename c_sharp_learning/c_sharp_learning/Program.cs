@@ -21,7 +21,7 @@
 // tryparse - аналог parse, но с встроенным try-catch. Если метод ловит ошибку, в аутпутную переменную записывается значение 0. Сам метод возвращает булево значение
 
 
-namespace c_sharp_learning
+namespace ConsoleInpOutp
 {
     internal class Program
     {
