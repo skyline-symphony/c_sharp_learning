@@ -1,4 +1,6 @@
 <Solution>
   <Project Path="c_sharp_learning/ConsoleInpOutp.csproj" Id="cf5d7768-d439-46f5-824b-4c0fb4012196" />
+  <Project Path="IfElse/IfElse.csproj" Id="14aa1767-ebc8-4f07-8e22-2e883b1bfe46" />
+  <Project Path="IncDecrOps/IncDecrOps.csproj" Id="f1ddc4dc-7837-4c12-b8ec-39e3537f7187" />
   <Project Path="Operators/Operators.csproj" Id="dfc96124-6c7e-4d91-8ada-ec53c0724138" />
 </Solution>
