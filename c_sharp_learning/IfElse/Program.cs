@@ -15,6 +15,12 @@ using System.Threading.Tasks;
  * ! - НЕ (унарный)
 */
 
+/*
+ * ТЕРНАРНЫЙ ОПЕРАТОР
+ * [первый операнд - условие] ? [второй операнд - if_true] : [третий операнд - if_false]
+ * 
+*/
+
 
 namespace IfElse
 {
@@ -22,37 +28,51 @@ namespace IfElse
     {
         static void Main(string[] args)
         {
-            int a = int.Parse(Console.ReadLine());
+            bool access_allowed;
+            string pass = "qwerty";
+            string pass_try = Console.ReadLine();
 
-            if (a % 2 == 0)
-            {
-                Console.WriteLine("Четное!");
-            }
-            else
-            {
-                Console.WriteLine("Нечетное!");
-            }
+            access_allowed = pass == pass_try ? true : false;
 
-            string check = null;
+            Console.WriteLine(access_allowed);
 
-            while ((check != "false") && (check != "true"))
-            {
-                Console.WriteLine("Возможные значения только true или false!");
-                check = Console.ReadLine();
-            }
+            int inp = int.Parse(Console.ReadLine());
 
-            string result = null;
+            int outp = inp < 0 ? 0 : inp;
+            
+            Console.WriteLine(outp);
 
-            if (bool.Parse(check))
-            {
-                result = "Проверка успешна!";
-            }
-            else
-            {
-                result = "Проверка ошибочка!";
-            }
+            //int a = int.Parse(Console.ReadLine());
 
-            Console.WriteLine(result);
+            //if (a % 2 == 0)
+            //{
+            //    Console.WriteLine("Четное!");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Нечетное!");
+            //}
+
+            //string check = null;
+
+            //while ((check != "false") && (check != "true"))
+            //{
+            //    Console.WriteLine("Возможные значения только true или false!");
+            //    check = Console.ReadLine();
+            //}
+
+            //string result = null;
+
+            //if (bool.Parse(check))
+            //{
+            //    result = "Проверка успешна!";
+            //}
+            //else
+            //{
+            //    result = "Проверка ошибочка!";
+            //}
+
+            //Console.WriteLine(result);
 
         }
     }

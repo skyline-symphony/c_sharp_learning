@@ -1,4 +1,6 @@
 ﻿using System;
+using System.ComponentModel.Design;
+using System.Diagnostics.Eventing.Reader;
 
 // Однострочный комментарий
 
@@ -27,21 +29,13 @@ namespace ConsoleInpOutp
     {
         static void Main(string[] args)
         {
-            // int a, b;
-            // a = 100;
-            // b = 10;
-            
+
             string c, d, e;
             c = "1";
             d = "1";
             e = "dasdafasdasdaa";
 
-            int cint, dint, eint;
-
-            // string greeting = "Hello,";
-            // string data = Console.ReadLine();
-            // Console.WriteLine(greeting + " " + data + "!");
-            //Console.WriteLine("100 - 10 = " + (a-b));       
+            int cint, dint, eint; 
 
             Console.WriteLine("c+d = " + (c + d));
             Console.WriteLine("converted c+d = "+(Convert.ToInt16(c) + Convert.ToInt16(d)));
