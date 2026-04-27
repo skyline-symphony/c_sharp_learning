@@ -50,6 +50,10 @@ namespace Arrays
             Array.Sort(urArrSortedAsc); //Как пример, сортировка по возрастанию.
             Array.ForEach(urArrSortedAsc, i => Console.WriteLine(i)); //Вывод каждого значения массива
 
+            //int[] sugarArr = urArrSortedAsc[0..4]; - диапазон не работает в данной версии С#. Доступен в C#8
+
+            //int[] sugarVal = urArrSortedAsc[^2]; - Второй с конца элемент массива. Индекс не работает в данной версии С#. Доступен в C#8
+
         }
     }
 }
