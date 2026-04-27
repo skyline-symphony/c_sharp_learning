@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="Arrays/Arrays.csproj" Id="f353d41a-e19a-415c-b808-01564438f247" />
   <Project Path="c_sharp_learning/ConsoleInpOutp.csproj" Id="cf5d7768-d439-46f5-824b-4c0fb4012196" />
   <Project Path="IfElse/IfElse.csproj" Id="14aa1767-ebc8-4f07-8e22-2e883b1bfe46" />
   <Project Path="loops/loops.csproj" Id="b8ca29a6-03fd-464c-b5d5-c051b73f68c2" />
