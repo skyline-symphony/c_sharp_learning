@@ -5,4 +5,5 @@
   <Project Path="loops/loops.csproj" Id="b8ca29a6-03fd-464c-b5d5-c051b73f68c2" />
   <Project Path="Operators/Operators.csproj" Id="dfc96124-6c7e-4d91-8ada-ec53c0724138" />
   <Project Path="SwitchOp/SwitchOp.csproj" Id="7cad2bc7-3c0e-461e-bb10-f030f696d9d3" />
+  <Project Path="TestProject/TestProject.csproj" Id="fe43a786-c13a-4072-9904-46b82b4ee8f0" />
 </Solution>
